@@ -1,6 +1,5 @@
 import os
-os.environ["OPENAI_API_KEY"] = "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"
-
+os.environ["OPENAI_API_KEY"] = ""
 from langchain_community.document_loaders import PyPDFLoader
 from langchain_text_splitters import CharacterTextSplitter
 from langchain_openai import OpenAIEmbeddings, OpenAI
